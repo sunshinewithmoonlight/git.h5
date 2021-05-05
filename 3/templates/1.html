@@ -177,7 +177,7 @@
     xmlhttp.open("GET","{{url_for(endpoint='static',filename='2.txt')}}",true);
     xmlhttp.send();
     var instance = M.Collapsible.getInstance(document.getElementById("aa"));
-    setTimeout(function(){instance.close(0);instance.open(0);}, 100);
+    setTimeout(function(){instance.open(0);}, 100);
 
   }
 </script>

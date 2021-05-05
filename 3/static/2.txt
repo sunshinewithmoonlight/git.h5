@@ -1,4 +1,4 @@
-<li class="active">
+<li>
 <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
 <div class="collapsible-body" id="p1" onclick="cp(document.getElementById('p1'));"><span>Lorem ipsum dolor sit amet.</span></div>
 </li>
